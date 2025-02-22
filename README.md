@@ -1,5 +1,5 @@
 
-# RhythmVision 🎶✨ (WIP Early Stages) 
+# RhythmVision 🎶✨ (Work In Progress, eraly stages)
 
 **RhythmVision** is an interactive music visualizer built with **Three.js**. It transforms audio data from your favorite music into dynamic, artistic visualizations that respond to rhythms, tones, and frequencies in real time. Perfect for DJs, music enthusiasts, and developers looking for a creative way to visualize music. 🎧🌈
 
@@ -10,6 +10,7 @@
 - **Interactive Controls** 🎮: Modify parameters and change the appearance of the visualization live.
 - **Supports Multiple Audio Formats** 🎵: Compatible with MP3, WAV, and OGG audio files.
 - **Responsive Design** 📱💻: Works on a variety of devices and screen sizes.
+- **Audio File Upload** 📂: Upload audio files directly from your device to create visualizations.
 
 ## Installation 🛠️
 
@@ -22,7 +23,7 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/brendlij/RhythmVision.git
+   git clone https://github.com/yourusername/RhythmVision.git
    ```
 
 2. **Navigate into the project folder:**
@@ -53,10 +54,21 @@
 
    Now you can open `http://localhost:3000` in your browser to see the visualization in action! 🚀
 
-## Usage 🎛️
+## Features Explained 💡
 
-- **Upload your audio file** 🎧 and watch the magic happen.
-- **Interactive controls** let you adjust the visualizer to your liking. Experiment with different parameters for unique effects.
+- **Audio Input** 🎧: The visualizer takes in an audio file via a file input element and visualizes the music in real-time.
+- **Interactive UI** 🎮: The visualization's parameters can be adjusted dynamically using **dat.GUI**.
+  - **Audio Reaction** 🧠: The background reacts based on audio input, creating a fluid, responsive experience.
+  - **Regular and Quantized Points** 📊: Adjust the size and appearance of visual elements in the 3D space.
+  - **Shadow Blur** 🌑: Customize the shadow appearance for the visual elements in the scene.
+
+## Future Plans 🚀
+
+### TODO List ✅
+
+- **Live Audio Input** 🎤: Add support for live audio input (e.g., microphone or streaming sources) to visualize real-time music or sound.
+- **Video Background** 🎬: Incorporate video backgrounds alongside the audio visualizer, offering a richer user experience with moving visuals or clips that react to the audio.
+- **Standalone App with Electron** 💻: Package the visualizer as a standalone desktop application using **Electron** for a smoother user experience across platforms (Windows, macOS, Linux).
 
 ## Contributing 🤝
 
