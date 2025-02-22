@@ -1,5 +1,5 @@
 
-# RhythmVision 🎶✨
+# RhythmVision 🎶✨ (WIP Eearly Stages) 
 
 **RhythmVision** is an interactive music visualizer built with **Three.js**. It transforms audio data from your favorite music into dynamic, artistic visualizations that respond to rhythms, tones, and frequencies in real time. Perfect for DJs, music enthusiasts, and developers looking for a creative way to visualize music. 🎧🌈
 
